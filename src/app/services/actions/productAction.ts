@@ -26,10 +26,17 @@ function getToken() {
 // ------------------------------
 
 // Get All Products
-async function getAllProducts() {
-    getToken()
+async function getAllProducts(page: number, limit: number, selectedCategory: string, searchQuery: string) {
+  getToken()
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL_API}/Product`, {
+      let url = `${process.env.NEXT_PUBLIC_BASE_URL_API}/Product?page=${page}&limit=${limit}`
+      if (selectedCategory) {
+        url += `&selectedCategory=${selectedCategory}`
+      }
+      if (searchQuery) {
+        url += `&searchQuery=${searchQuery}`
+      }
+      const response = await fetch(url, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -37,14 +44,17 @@ async function getAllProducts() {
         },
       })
       if (response.ok) {
-          return response.json()
+          const data = await response.json()
+          console.log(data)
+          return data
+          // return response.json()
       } else {
-         throw new Error('Failed to fetch products');
+        throw new Error('Failed to fetch products');
       }
-    } catch (error) {
-      console.error('An error occurred while fetching products:', error)
-      throw new Error('Failed to fetch products');
-    }
+  } catch (error) {
+    console.error('An error occurred while fetching products:', error)
+    throw new Error('Failed to fetch products');
+  }
 }
 
 // Create Product
@@ -74,5 +84,57 @@ async function createProduct(payload: any) {
   }
 }
 
-export { getAllProducts, createProduct }
+// Update Product with ID
+async function updateProduct(id: string, payload: any) {
+  getToken()
+  try {
 
+    // console.log(payload)
+
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL_API}/Product/${id}`, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+      },
+      body: payload,
+    })
+    if (response.ok) {
+      const data = await response.json()
+      // console.log(data)
+      return { success: true }
+    } else {
+      throw new Error('Failed to update product')
+    }
+
+  }
+  catch (error) {
+    console.error('An error occurred while updating product:', error)
+  }
+}
+
+// Delete Product with ID
+async function deleteProduct(id: number) {
+  getToken()
+  try {
+
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL_API}/Product/${id}`, {
+      method: 'DELETE',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+      },
+    })
+    if (response.ok) {
+      const data = await response.json()
+      // console.log(data)
+      return { success: true }
+    } else {
+       throw new Error('Failed to delete product')
+    }
+
+  }
+  catch (error) {
+    console.error('An error occurred while deleting product:', error)
+  }
+}
+
+export { getAllProducts, createProduct, updateProduct, deleteProduct }
