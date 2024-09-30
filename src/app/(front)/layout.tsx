@@ -1,16 +1,17 @@
-import Footer from "../components/front/footer/Footer";
-import Navbar from "../components/front/ืnavbar/Navbar";
+import Header from "@/app/components/front/header/Header"
+import Footer from "@/app/components/front/footer/Footer"
+import React from "react"
 
-export default function RootLayout({
+export default function FrontLayout({
     children,
   }: Readonly<{
-    children: React.ReactNode;
+    children: React.ReactNode
   }>) {
     return (
-        <>
-        <Navbar />
-        {children}
+      <>
+        <Header />
+          {children}
         <Footer />
-        </>
-    );
-  }
+      </>
+    )
+}
