@@ -38,7 +38,7 @@ const BannerContent = () => {
           <Typography color={'secondary'}>
             <IconRocket />
           </Typography>{' '}
-          Kick start your project with
+          Warehouse management system via web browser
         </Typography>
 
         <Typography
@@ -53,9 +53,9 @@ const BannerContent = () => {
             },
           }}
         >
-          Most powerful &{' '}
+          Developer &{' '}
           <Typography component={'span'} variant="inherit" color={'primary'}>
-            Developer friendly
+            StoreKeeper
           </Typography>{' '}
           NextJs dashboard
         </Typography>
@@ -72,8 +72,7 @@ const BannerContent = () => {
           }}
         >
           <Typography variant="h1" fontWeight={300} fontSize={'22px'}>
-            Modernize comes with light & dark color skins, well designed dashboards, applications
-            and pages.
+          With the intention of developing a system that actually works and meets the needs of users at all levels.
           </Typography>
         </motion.div>
       </Box>

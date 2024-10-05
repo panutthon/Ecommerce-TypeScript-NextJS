@@ -6,11 +6,11 @@ import theme from "./theme/Theme"
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Next Store',
-    default: 'Home | Next Store',
+    template: '%s | StoreKeeper',
+    default: 'Home | StoreKeeper',
   },
   description: "Next Store - E-commerce website built with Next.js and Material-UI",
-  keywords: ["Next.js", "Material-UI", "E-commerce", "Next Store"],
+  keywords: ["Next.js", "Material-UI", "E-commerce", "StoreKeeper"],
   authors: [{name: "ITGenius Team",}],
 
   // Additional

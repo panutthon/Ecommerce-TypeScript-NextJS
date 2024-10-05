@@ -14,9 +14,9 @@ const Footer = () => {
           <Image src={logoIcon} alt="icon" />
           <Typography fontSize="16" color="textSecondary" mt={1} mb={4}>
             All rights reserved by Next Modern. Designed & Developed by &nbsp;&nbsp;
-            <Link href="http://www.itgenius.co.th" target='_blank'>
+            <Link href="https://github.com/panutthon" target='_blank'>
               <Typography color="textSecondary" component="span" display="inline">
-                ITGenius
+                Panutthon
               </Typography>{' '}
             </Link>
           </Typography>
