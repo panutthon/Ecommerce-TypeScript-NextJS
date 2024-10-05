@@ -59,6 +59,7 @@ export default function LoginPage({}: Props) {
             <Image
               src={"/images/front/background/login-bg.svg"}
               alt="bg" width={500} height={500}
+              priority
               style={{
                 width: '100%',
                 maxWidth: '500px',

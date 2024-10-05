@@ -7,10 +7,10 @@ import {
   Tooltip,
   Fab,
 } from "@mui/material"
-import img1 from "/public/images/products/s4.jpg"
-import img2 from "/public/images/products/s5.jpg"
-import img3 from "/public/images/products/s7.jpg"
-import img4 from "/public/images/products/s11.jpg"
+import img1 from "/public/images/products/s1.jpg"
+import img2 from "/public/images/products/s2.jpg"
+import img3 from "/public/images/products/s3.jpg"
+import img4 from "/public/images/products/s4.jpg"
 import { Stack } from "@mui/system"
 import { IconBasket } from "@tabler/icons-react"
 import BlankCard from "@/app/components/back/shared/BlankCard"

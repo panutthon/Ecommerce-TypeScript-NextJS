@@ -64,6 +64,7 @@ export default function RegisterPage({}: Props) {
               alt="bg"
               width={500}
               height={500}
+              priority
               style={{
                 width: "100%",
                 maxWidth: "500px",
