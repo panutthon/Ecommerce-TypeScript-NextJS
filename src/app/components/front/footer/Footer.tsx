@@ -13,7 +13,7 @@ const Footer = () => {
         <Grid item xs={12} sm={5} lg={4} textAlign="center">
           <Image src={logoIcon} alt="icon" />
           <Typography fontSize="16" color="textSecondary" mt={1} mb={4}>
-            All rights reserved by Next Modern. Designed & Developed by &nbsp;&nbsp;
+          All rights reserved by StoreKeeper. Developed by&nbsp;&nbsp;
             <Link href="https://github.com/panutthon" target='_blank'>
               <Typography color="textSecondary" component="span" display="inline">
                 Panutthon

@@ -9,13 +9,13 @@ interface notificationType {
 const notifications: notificationType[] = [
   {
     avatar: "/images/profile/user-9.jpg",
-    title: "Roman Joined the Team!",
+    title: "Oliver Joined the Team!",
     subtitle: "Congratulate him",
   },
   {
     avatar: "/images/profile/user-2.jpg",
     title: "New message received",
-    subtitle: "Salma sent you new message",
+    subtitle: "Sophia sent you new message",
   },
   {
     avatar: "/images/profile/user-3.jpg",
@@ -24,18 +24,18 @@ const notifications: notificationType[] = [
   },
   {
     avatar: "/images/profile/user-4.jpg",
-    title: "Jolly completed tasks",
+    title: "Liam completed tasks",
     subtitle: "Assign her new tasks",
   },
   {
     avatar: "/images/profile/user-5.jpg",
-    title: "Roman Joined the Team!",
+    title: "Isabella Joined the Team!",
     subtitle: "Congratulate him",
   },
   {
     avatar: "/images/profile/user-6.jpg",
     title: "New message received",
-    subtitle: "Salma sent you new message",
+    subtitle: "Henry sent you new message",
   },
   {
     avatar: "/images/profile/user-7.jpg",
@@ -44,7 +44,7 @@ const notifications: notificationType[] = [
   },
   {
     avatar: "/images/profile/user-8.jpg",
-    title: "Jolly completed tasks",
+    title: "Mia completed tasks",
     subtitle: "Assign her new tasks",
   },
 ]
@@ -60,19 +60,19 @@ interface ProfileType {
 }
 const profile: ProfileType[] = [
   {
-    href: "/",
+    href: "",
     title: "My Profile",
     subtitle: "Account Settings",
     icon: "/images/svgs/icon-account.svg",
   },
   {
-    href: "/",
+    href: "",
     title: "My Inbox",
     subtitle: "Messages & Emails",
     icon: "/images/svgs/icon-inbox.svg",
   },
   {
-    href: "/",
+    href: "",
     title: "My Tasks",
     subtitle: "To-do and Daily Tasks",
     icon: "/images/svgs/icon-tasks.svg",

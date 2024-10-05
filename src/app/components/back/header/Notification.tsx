@@ -106,7 +106,7 @@ const Notifications = () => {
           ))}
         </Scrollbar>
         <Box p={3} pb={1}>
-          <Button href="#" variant="outlined" component={Link} color="primary" fullWidth>
+          <Button href="" variant="outlined" component={Link} color="primary" fullWidth>
             See all Notifications
           </Button>
         </Box>

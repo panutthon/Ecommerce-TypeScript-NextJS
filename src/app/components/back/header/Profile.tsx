@@ -64,15 +64,15 @@ const Profile = () => {
           },
         }}
       >
-        <Typography variant="h5">User Profile</Typography>
+        <Typography variant="h5">Admin Profile</Typography>
         <Stack direction="row" py={3} spacing={2} alignItems="center">
         <Avatar src={"/images/profile/user-1.jpg"} alt={"ProfileImg"} sx={{ width: 95, height: 95 }} />
           <Box>
             <Typography variant="subtitle2" color="textPrimary" fontWeight={600}>
-              Mathew Anderson
+             Panutthon Chanachon
             </Typography>
             <Typography variant="subtitle2" color="textSecondary">
-              Designer
+              Admin
             </Typography>
             <Typography
               variant="subtitle2"
@@ -82,7 +82,7 @@ const Profile = () => {
               gap={1}
             >
               <IconMail width={15} height={15} />
-              info@modernize.com
+              panutthon@email.com
             </Typography>
           </Box>
         </Stack>

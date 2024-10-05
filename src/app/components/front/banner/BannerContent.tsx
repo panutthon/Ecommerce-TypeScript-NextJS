@@ -92,7 +92,7 @@ const BannerContent = () => {
           </StyledButton>
 
           <StyledButton variant="outlined" href="#demos">
-            Live Preview
+            Preview
           </StyledButton>
         </Stack>
       </motion.div>

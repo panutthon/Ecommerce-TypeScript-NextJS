@@ -57,6 +57,12 @@ import {
     },
     {
       id: uniqueId(),
+      title: "SubCaption",
+      icon: IconStar,
+      href: "",
+    },
+    {
+      id: uniqueId(),
       title: "Disabled",
       icon: IconBan,
       href: "",
@@ -64,17 +70,10 @@ import {
     },
     {
       id: uniqueId(),
-      title: "SubCaption",
-      subtitle: "This is the sutitle",
-      icon: IconStar,
-      href: "",
-    },
-    {
-      id: uniqueId(),
       title: "Chip",
       icon: IconAward,
       href: "",
-      chip: "9",
+      chip: "7",
       chipColor: "primary",
     },
     {
@@ -91,7 +90,7 @@ import {
       title: "External Link",
       external: true,
       icon: IconStar,
-      href: "https://google.com",
+      href: "",
     },
   ];
   

@@ -36,44 +36,44 @@ const RecentTransactions = () => {
           }}
         >
           <TimelineItem>
-            <TimelineOppositeContent>09:30 am</TimelineOppositeContent>
+            <TimelineOppositeContent>09:55 pm</TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="primary" variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Payment received from John Doe of $385.90</TimelineContent>
+            <TimelineContent>Payment received from Nirav Joshi of $45.52</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>10:00 am</TimelineOppositeContent>
+            <TimelineOppositeContent>06:05 pm</TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="secondary" variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography fontWeight="600">New sale recorded</Typography>{' '}
-              <Link href="/" underline="none">
-                #ML-3467
+              <Typography>New sale recorded</Typography>{' '}
+              <Link underline="none">
+                #ML-4721
               </Link>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>12:00 am</TimelineOppositeContent>
+            <TimelineOppositeContent>04:45 pm</TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="success" variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent>Payment was made of $64.95 to Michael</TimelineContent>
+            <TimelineContent>Payment was made of $85.85 to Sunil Joshi</TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>09:30 am</TimelineOppositeContent>
+            <TimelineOppositeContent>02:20 pm</TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="warning" variant="outlined" />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography fontWeight="600">New sale recorded</Typography>{' '}
-              <Link href="/" underline="none">
-                #ML-3467
+              <Typography>New sale recorded</Typography>{' '}
+              <Link underline="none">
+                #ML-3425
               </Link>
             </TimelineContent>
           </TimelineItem>
@@ -84,11 +84,11 @@ const RecentTransactions = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent>
-              <Typography fontWeight="600">New arrival recorded</Typography>
+              <Typography>New arrival recorded</Typography>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-            <TimelineOppositeContent>12:00 am</TimelineOppositeContent>
+            <TimelineOppositeContent>07:00 am</TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineDot color="success" variant="outlined" />
             </TimelineSeparator>

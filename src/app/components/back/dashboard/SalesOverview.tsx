@@ -101,9 +101,9 @@ const SalesOverview = () => {
                 size="small"
                 onChange={handleChange}
             >
-                <MenuItem value={1} aria-label='March 2023'>March 2023</MenuItem>
-                <MenuItem value={2} aria-label='April 2023'>April 2023</MenuItem>
-                <MenuItem value={3} aria-label='May 2023'>May 2023</MenuItem>
+                <MenuItem value={1} aria-label='September 2024'>September 2024</MenuItem>
+                <MenuItem value={2} aria-label='August 2024'>August 2024</MenuItem>
+                <MenuItem value={3} aria-label='July 2024'>July 2024</MenuItem>
             </Select>
         }>
             <Chart
